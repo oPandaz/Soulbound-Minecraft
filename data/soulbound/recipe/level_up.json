@@ -1,0 +1,75 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "gdg",
+    "dad",
+    "gdg"
+  ],
+  "key": {
+    "g": [
+      "minecraft:gold_block"
+    ],
+    "d": [
+      "minecraft:diamond"
+    ],
+    "a": [
+      "minecraft:apple"
+    ]
+  },
+  "result": {
+    "id": "minecraft:player_head",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1.61,
+        "animation": "eat",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:absorption",
+                "amplifier": 2,
+                "duration": 2400
+              },
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 1,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:resistance",
+                "duration": 6000
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:food": {
+        "nutrition": 10,
+        "saturation": 10,
+        "can_always_eat": true
+      },
+      "minecraft:profile": {
+        "id": [
+          -2041724211,
+          1332169872,
+          -1898646657,
+          379970051
+        ],
+        "properties": [
+          {
+            "name": "textures",
+            "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzU0YzlkMzU4YjA5MjNjMzUzOWZmMGQwMzE2NDBiM2Q3NmZiY2I5MjhjOTY5NDc5MzM1NDg3ODIwYTI5ODM5ZSJ9fX0="
+          }
+        ]
+      },
+      "minecraft:custom_name": "{\"bold\":true,\"color\":\"green\",\"italic\":true,\"text\":\"Level Up!\",\"underlined\":true}",
+      "minecraft:custom_model_data": {
+        "floats": [
+          42214
+        ]
+      }
+    }
+  }
+}

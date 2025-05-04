@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use_item": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:player_head"
+          ],
+          "components": {
+            "minecraft:custom_model_data": {
+              "floats": [
+                42214
+              ]
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "soulbound:classes/check_class_kill"
+  }
+}

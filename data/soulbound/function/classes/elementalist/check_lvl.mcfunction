@@ -1,0 +1,13 @@
+execute if score @s soul_lvl matches 0 run function soulbound:classes/elementalist/lvl0
+execute if score @s soul_lvl matches 1 run function soulbound:classes/elementalist/lvl1
+execute if score @s soul_lvl matches 2 run function soulbound:classes/elementalist/lvl2
+execute if score @s soul_lvl matches 3 run function soulbound:classes/elementalist/lvl3
+execute if score @s soul_lvl matches 4 run function soulbound:classes/elementalist/lvl4
+execute if score @s soul_lvl matches 5 run function soulbound:classes/elementalist/lvl5
+execute if score @s soul_lvl matches 6 run function soulbound:classes/elementalist/lvl6
+execute if score @s soul_lvl matches 7 run function soulbound:classes/elementalist/lvl7
+execute if score @s soul_lvl matches 8 run function soulbound:classes/elementalist/lvl8
+execute if score @s soul_lvl matches 9 run function soulbound:classes/elementalist/lvl9
+execute if score @s soul_lvl matches 10 run function soulbound:classes/elementalist/lvl10
+execute if score @s soul_lvl matches 11 run function soulbound:classes/elementalist/lvl11
+execute if score @s soul_lvl matches 12 run function soulbound:classes/elementalist/lvl12

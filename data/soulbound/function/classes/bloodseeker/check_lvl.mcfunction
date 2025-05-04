@@ -1,0 +1,11 @@
+execute if score @s soul_lvl matches 0 run function soulbound:classes/bloodseeker/lvl0
+execute if score @s soul_lvl matches 1 run function soulbound:classes/bloodseeker/lvl1
+execute if score @s soul_lvl matches 2 run function soulbound:classes/bloodseeker/lvl2
+execute if score @s soul_lvl matches 3 run function soulbound:classes/bloodseeker/lvl3
+execute if score @s soul_lvl matches 4 run function soulbound:classes/bloodseeker/lvl4
+execute if score @s soul_lvl matches 5 run function soulbound:classes/bloodseeker/lvl5
+execute if score @s soul_lvl matches 6 run function soulbound:classes/bloodseeker/lvl6
+execute if score @s soul_lvl matches 7 run function soulbound:classes/bloodseeker/lvl7
+execute if score @s soul_lvl matches 8 run function soulbound:classes/bloodseeker/lvl8
+execute if score @s soul_lvl matches 9 run function soulbound:classes/bloodseeker/lvl9
+execute if score @s soul_lvl matches 10 run function soulbound:classes/bloodseeker/lvl10

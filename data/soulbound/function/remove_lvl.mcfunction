@@ -1,0 +1,1 @@
+scoreboard players set @s soul_lvl 0
