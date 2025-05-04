@@ -6,4 +6,4 @@ scoreboard objectives add kill_counter playerKillCount "kill_counter"
 scoreboard objectives add death_counter deathCount "death_counter"
 advancement revoke @a only soulbound:venomblade_hit_entity
 tag @e remove venom_immune
-say loaded
+say Loaded Soulbound
